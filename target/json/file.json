@@ -1,0 +1,178 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-20T17:13:35.900Z",
+        "line": 24,
+        "name": "User is able to Open the browser, navigate to the URL and Search fro Product",
+        "description": "",
+        "id": "e-commerce-project-web-site-health-check;user-is-able-to-open-the-browser--navigate-to-the-url-and-search-fro-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25,
+            "name": "User navigated to the home application url",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "User search for Product \"Laptop\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "Search result page is displayed",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ui"
+          },
+          {
+            "name": "@healthcheck"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-20T17:13:36.432Z",
+        "line": 38,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": "e-commerce-project-web-site-health-check;title-of-your-scenario-outline;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 32,
+            "name": "I want to write a step with name1",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "I check for the 5 in step",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "I verify the success in step",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ui"
+          },
+          {
+            "name": "@healthcheck"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-20T17:13:36.479Z",
+        "line": 39,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": "e-commerce-project-web-site-health-check;title-of-your-scenario-outline;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 32,
+            "name": "I want to write a step with name2",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "I check for the 7 in step",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16000000,
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "I verify the Fail in step",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ui"
+          },
+          {
+            "name": "@healthcheck"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      }
+    ],
+    "name": "E-Commerce Project Web site Health Check",
+    "description": "  I want to use this template for my feature file",
+    "id": "e-commerce-project-web-site-health-check",
+    "keyword": "Feature",
+    "uri": "classpath:features/HealthCheck.feature",
+    "tags": [
+      {
+        "name": "@ui",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      },
+      {
+        "name": "@healthcheck",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 5
+        }
+      }
+    ]
+  }
+]
